@@ -1,0 +1,28 @@
+1.514e9            # e-beam: Ee [eV]
+6.5e-4           # e-beam: relative energy spread [unitless]
+1.42e-4          # e-beam: sigma_e_x [m]
+8.0e-6          # e-beam: sigma_e_y [m]
+1.3e-5           # e-beam: eps_x [m rad]
+5.95e-7           # e-beam: eps_y [m rad]
+10.0e-2           # p-beam: wavelength [m]
+89            # p-beam: sig (normalized) [unitless]
+150.0e-1          # p-beam: sigma_p_x? [m]
+150.0e-1          # p-beam: sigma_p_y? [m]
+2.12              # p-beam: a0 [unitless]
+5                # p-beam: iTypeEnv (laser envelope type=3D Gaussian)
+11                # p-beam: modType (modification type)
+5.0              # p-beam: if modType=2: a0chirp; =3: lambda_RF; =5: p
+0.00             # p-beam: angle between the laser and the z-axis [rad]
+0                # aperture: TypeAp = 0: circular, 1: rectangular
+15.5              # aperture: distance between IP and aperture L_aper [m]
+1.55e-4          # aperture: if TypeAp = 0: R_aper [m]; = 1: x_aper [m]
+0.001            # aperture: if TypeAp = 0: ignored; = 1: y_aper [m]
+0.90              # aperture: start spectrum
+0.94             # aperture: end spectrum
+200              # simulation: Nout (number of output point in the spectrum)
+18000            # simulation: Ntot
+4000               # simulation: Npart 
+1               # simulation: N_MC
+0                # simulation: =1: read ICs from file; <> 1: MC
+1               # simulation: iCompton =1: Compton; <>1: Thomson regime 
+0               # simulation: radiation reaction model =3: e_crit

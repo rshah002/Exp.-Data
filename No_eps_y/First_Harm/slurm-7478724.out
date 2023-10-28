@@ -1,0 +1,56 @@
+******************************************************
+***          SENSE Simulation Parameters           ***
+******************************************************
+4000  ICs randomly generated from input parameters
+------------------------------------------------------
+e-beam:  En0        =   1513498547.2511806  eV
+e-beam:  gamma_0    =   2961.839530332681
+e-beam:  sig_g      =   0.00065
+e-beam:  eps_x_n    =   1.3e-05  m rad
+e-beam:  eps_y_n    =   2e-10  m rad
+e-beam:  eps_x      =   4.389164188965972e-09  m rad
+e-beam:  eps_y      =   6.752560290716881e-14  m rad
+e-beam:  sigma_e_x  =   0.000142  m
+e-beam:  sigma_e_y  =   8e-06  m
+e-beam:  sigma_e_px =   3.0909606964549095e-05  rad
+e-beam:  sigma_e_py =   8.440700363396101e-09  rad
+------------------------------------------------------
+p-beam:  lambda0    =   0.1  m
+p-beam:  p_0        =   8.088372558096748e-19  kg m/s
+p-beam:  sig        =   89.0
+p-beam:  sigma_p_x  =   15.0  m
+p-beam:  sigma_p_y  =   15.0  m
+p-beam:  a0         =   2.12
+p-beam:  iTypeEnv   =   5
+p-beam:  modType    =   11
+p-beam:  n_gamma    =   3.450045626707386
+p-beam:  X          =   2.8741860757988563e-07
+p-beam:  angle      =   0.0  rad
+------------------------------------------------------
+p-beam:  no chirp
+------------------------------------------------------
+aperture:  circular 
+aperture:  L_aper   =   15.5  m
+aperture:  R_aper   =   0.000155  m
+aperture:  theta_a  =   9.999999999666668e-06  rad
+------------------------------------------------------
+IP:  beta_x   =   4.5940409453560145  m
+IP:  beta_y   =   947.7886497064579  m
+------------------------------------------------------
+simulation:  w_min  =   0.26
+simulation:  w_max  =   0.34
+simulation:  Nout   =   600
+simulation:  Ntot   =   56000
+simulation:  Npart  =   4000
+simulation:  N_MC   =   1
+------------------------------------------------------
+e-beam mean E_0     =   1513.4985472511805  MeV (computed)
+scattered mean E'   =   0.43506324192474616  keV
+******************************************************
+Finished sampling electron distribution...
+Finished computing parameters for each electron...
+Now executing spectrum computation on  12  CPUs
+
+real	28m21.177s
+user	252m33.898s
+sys	0m32.837s
